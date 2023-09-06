@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "DynaPuff", cursive;
+	color: rgb(79, 35, 140);
+	font-weight: 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 500;
+}
+
+.subtitle {
+	font-weight: 300;
+	color: rgb(101, 51, 170);
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+}

@@ -1,0 +1,45 @@
+.CardsContainer {
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgb(189, 162, 228);
+}
+
+.Cards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1.3rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0 100px;
+	border-radius: 30px;
+}
+
+.Pagination {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.Searchbar {
+	display: flex;
+	border-radius: 10px;
+}
+
+.filterBar {
+	margin-top: 0px;
+	padding: 20px;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.Select {
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	border-radius: 30px;
+}

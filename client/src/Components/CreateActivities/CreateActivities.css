@@ -1,0 +1,114 @@
+.outerBox {
+	height: 63vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column-reverse;
+	margin-bottom: 30px;
+	gap: 40px;
+}
+.bigBox {
+	padding: 40px;
+	border-radius: 30px;
+
+	box-shadow: 0px 15px 20px 0px rgb(0 0 0 / 75%);
+	display: block;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 40px;
+	align-items: center;
+	text-align: left;
+	font-size: 22px;
+	position: relative;
+	margin-block: 30px;
+}
+.listBox {
+	width: 400px;
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	flex-direction: column;
+	font-size: 22px;
+	position: relative;
+	margin-block: 40px;
+}
+.list {
+	font-size: 18px;
+	width: 300px;
+	height: 40px;
+	margin-block: 5px;
+	border-radius: 30px;
+}
+.formBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+.formBox h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "DynaPuff", cursive;
+}
+.formBox h1 {
+	text-align: center;
+}
+.form-section {
+	gap: 10px;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+.form-input-text {
+	width: 150px;
+}
+.form-input-number {
+	width: 150px;
+	text-align: center;
+}
+.small {
+	width: 75px;
+}
+.large {
+	width: 100%;
+}
+.Selectform {
+	text-align: center;
+	width: 350px;
+	margin-bottom: 10px;
+
+	height: 35px;
+	border-radius: 30px;
+}
+.SearchBar {
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	border-radius: 2px;
+}
+.formButtom {
+	text-align: center;
+	width: 170px;
+	height: 30px;
+	border-radius: 30px;
+}
+
+.error {
+	display: flex;
+	margin-left: 8%;
+	margin-top: 15px;
+	color: rgb(252, 32, 32);
+	font-weight: bold;
+}
+
+.errorsContainer {
+	flex-wrap: nowrap;
+	flex-direction: column;
+	display: flex;
+	width: 45%;
+	align-items: center;
+}
